@@ -5,8 +5,9 @@ export const SquareContainer = styled.div`
     justify-content: center;
     align-items: center;
     border: 1px ${props => props.borderStyle ? props.borderStyle : "solid"} black;
-    width: 200px;
-    height: 200px;
+    width: 600px;
+    height: 600px;
+    
 `
 
 export const SquareLink = styled.a`

@@ -1,6 +1,7 @@
 import { SquareContainer, SquareLink } from "./style";
 
-export default function Square(props) {
+
+export  default function Square(props) {
 
     console.log(props.borderStyle)
 
