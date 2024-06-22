@@ -7,16 +7,18 @@ import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import Navbar from "./hooks/components/Navbar"
 import Square from "./styles/styled-component/components/Square";
-import { Square2 } from "./styles/styled-component/square2";
+import { Square2 } from "./styles/styled-component/components/square2";
+import {ContactComposition} from "./components/Contact";
+import { Contact1 } from "./styles/styled-component/components/contact1/index";
 
 
 
 
 function App() {
   return (
-   
-       <Square2/>
-   
+    <body>
+        <Contact1/>
+    </body>
   );
 }
 
