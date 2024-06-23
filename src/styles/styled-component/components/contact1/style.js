@@ -71,3 +71,7 @@ export const ContactInputMsm =styled.input`
     border: 1px solid black;
     margin: 24px;
 `
+export const ContacTitle =styled.p`
+ 
+
+`
